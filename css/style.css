@@ -3,7 +3,7 @@
     font-family: 'Poppins',cursive;
 }
 body{
-    color: azure;
+    color: rgba(240, 255, 255, 0.667);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -17,12 +17,16 @@ body{
     font-weight: 900;
 }
 .greetings > span{
-    animation: glow 2.5s ease-in-out infinite;
+    animation: glow 3s ease-in-out infinite;
+}
+.space {
+    display: inline-block;
+    width: 40px; /* atur sesuai kebutuhan */
 }
 @keyframes glow{
     0%, 100%{
         color: #fff;
-        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+        text-shadow: 0 0 12px #ffc4fc, 0 0 50px #ffc4fc, 0 0 100px #ffc4fc;
     }
     10%, 90%{
         color: #111;
@@ -40,6 +44,9 @@ body{
 }
 .greetings > span:nth-child(5){
     animation-delay: .8s;
+}
+.greetings > span:nth-child(6){
+    animation-delay: .10s;
 }
 
 .description{
