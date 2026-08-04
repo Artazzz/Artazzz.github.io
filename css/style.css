@@ -21,7 +21,7 @@ body{
 }
 .space {
     display: inline-block;
-    width: 40px; /* atur sesuai kebutuhan */
+    width: 20px; /* atur sesuai kebutuhan */
 }
 @keyframes glow{
     0%, 100%{
